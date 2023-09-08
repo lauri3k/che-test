@@ -4,7 +4,7 @@ metadata:
 components:
   - name: test
     container:
-      image: lauri3k/alpine-xfce4
+      image: lauri3k/it1901-test
       memoryLimit: 1G
       endpoints:
         - exposure: public
