@@ -4,7 +4,7 @@ metadata:
 components:
   - name: test
     container:
-      image: lauri3k/it1901-test
+      image: lauri3k/x11_vnc
       memoryLimit: 1G
       endpoints:
         - exposure: public
