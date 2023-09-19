@@ -10,4 +10,4 @@ components:
         - exposure: public
           name: no-vnc
           protocol: http
-          targetPort: 6080
+          targetPort: 6901
