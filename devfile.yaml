@@ -4,7 +4,7 @@ metadata:
 components:
   - name: test
     container:
-      image: lauri3k/test:6
+      image: lauri3k/test:7
       memoryLimit: 1G
       endpoints:
         - exposure: public
