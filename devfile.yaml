@@ -2,12 +2,12 @@ schemaVersion: 2.1.0
 metadata:
   name: no-vnc-test
 components:
-  - name: test
+  - name: it1901
     container:
-      image: lauri3k/test:7
+      image: adrianstoica/it1901:v13
       memoryLimit: 1G
       endpoints:
         - exposure: public
           name: no-vnc
           protocol: http
-          targetPort: 6901
+          targetPort: 6080
