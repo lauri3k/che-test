@@ -11,3 +11,4 @@ components:
           name: no-vnc
           protocol: http
           targetPort: 6080
+          secure: true
