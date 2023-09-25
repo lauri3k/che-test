@@ -9,6 +9,6 @@ components:
       endpoints:
         - exposure: public
           name: no-vnc
-          protocol: http
+          protocol: https
           targetPort: 6080
           secure: true
