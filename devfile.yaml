@@ -13,5 +13,5 @@ components:
           targetPort: 6080
           secure: true
           attributes:
-            secure: 'true'
-            cookiesAuthEnabled: 'true'
+            secure: true
+            cookiesAuthEnabled: true
