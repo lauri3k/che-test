@@ -1,17 +1,8 @@
 schemaVersion: 2.2.2
 metadata:
-  name: no-vnc-test
+  name: uub
 components:
   - name: it1901
     container:
       image: lauri3k/uub:latest
-      memoryLimit: 1G
-      endpoints:
-        - exposure: public
-          name: no-vnc
-          protocol: https
-          targetPort: 6080
-          secure: true
-          attributes:
-            secure: true
-            cookiesAuthEnabled: true
+      memoryLimit: 4G
