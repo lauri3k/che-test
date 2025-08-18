@@ -3,8 +3,12 @@ metadata:
   name: no-vnc-test
 components:
   - name: it1901
+    attributes:
+      container-overrides:
+        securityContext:
+          runAsUser: 1234
     container:
-      image: adrianstoica/it1901:v13
+      image: adrianstoica/it1901:latest
       memoryLimit: 1G
       endpoints:
         - exposure: public
