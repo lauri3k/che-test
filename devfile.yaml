@@ -3,10 +3,6 @@ metadata:
   name: no-vnc-test
 components:
   - name: it1901
-    attributes:
-      container-overrides:
-        securityContext:
-          runAsUser: 1234
     container:
       image: lauri3k/che:latest
       memoryLimit: 1G
