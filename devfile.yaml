@@ -4,7 +4,7 @@ metadata:
 components:
   - name: it1901
     container:
-      image: lauri3k/che:latest
+      image: lauri3k/uub:latest
       memoryLimit: 1G
       endpoints:
         - exposure: public
