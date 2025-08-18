@@ -8,7 +8,7 @@ components:
         securityContext:
           runAsUser: 1234
     container:
-      image: adrianstoica/it1901:latest
+      image: lauri3k/che:latest
       memoryLimit: 1G
       endpoints:
         - exposure: public
