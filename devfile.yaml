@@ -4,5 +4,5 @@ metadata:
 components:
   - name: it1901
     container:
-      image: lauri3k/uub:latest
+      image: lauri3k/che:latest
       memoryLimit: 4G
